@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+/**BASE**/
+.full-width {
+   width: 1200px; 
+   margin: 0 20px;
+}
+
+.half-width {
+    width: 600px;
+    padding: 5px 0;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    padding: 20px 20px ;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0;
+}
+
+/**HEADER**/
+#header .half-width {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#header h1 span {
+    color: #859c6d;
+}
+
+#header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/***ABOUT***/
+#about h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #859c6d;
+    word-spacing: 0.1em;
+}
+
+#about p {
+  text-align: justify;
+  line-height: 20px;
+}
+
+/***MAIN***/
+#main h4 {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+#menu p {
+    color: #859c6d;
+}
+/***FOOTER***/
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+footer span {
+    color: #859c6d;
+    font-family: 'Norican', cursive;
+    font-size: 32px;
+    text-transform: lowercase;
+}
